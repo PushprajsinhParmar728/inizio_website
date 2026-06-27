@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../live_chat_for_drupal/css"
+		},
+		{
+			"path": "../live_chat_for_drupal/img"
+		},
+		{
+			"path": "../live_chat_for_drupal/js"
+		},
+		{
+			"path": "../live_chat_for_drupal/templates"
+		},
+		{
+			"path": "../live_chat_for_drupal/src"
+		},
+		{
+			"path": "../live_chat_for_drupal/config"
+		}
+	]
+}
