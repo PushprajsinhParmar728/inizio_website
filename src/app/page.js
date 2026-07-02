@@ -2,6 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
+export const metadata = 
+{
+  title: 'Home',
+  description: 'Inizio Overseas — Premium textile needles and machinery parts manufacturer for global textile industries.',
+};
+
 export default function Home() {
   return (
     <>

@@ -1,5 +1,10 @@
 import ScrollReveal from '@/components/ScrollReveal';
 
+export const metadata = {
+  title: 'About Us',
+  description: 'Learn about Inizio Overseas — our story, vision, and mission in precision textile manufacturing.',
+};
+
 export default function About() {
   return (
     <div className="about-page">

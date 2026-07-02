@@ -20,13 +20,24 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata = {
-  title: 'Inizio Overseas — Textile Machinery Parts & Needles',
-  description:
-    'High-quality needles and textile machinery parts – trust, precision, reliability.',
-  icons: {
-    icon: '/images/favicon.png',
+  title: {
+    default: 'Inizio Overseas | Premium Textile Needles & Machinery Parts',
+    template: '%s | Inizio Overseas',
   },
-}
+  description: 'Inizio Overseas manufactures precision textile needles and machinery parts for global textile industries. Quality, reliability and excellence.',
+  keywords: ['textile needles', 'textile machinery parts', 'industrial needles', 'sewing machine needles', 'Inizio Overseas'],
+  metadataBase: new URL('https://iniziooverseas.com'),
+  openGraph: {
+    type: 'website',
+    url: 'https://iniziooverseas.com',
+    siteName: 'Inizio Overseas',
+    title: 'Inizio Overseas | Premium Textile Needles & Machinery Parts',
+    description: 'Precision textile needles and machinery parts manufacturer for global industries.',
+    images: [{ url: '/images/logo/logo.png', width: 1200, height: 630, alt: 'Inizio Overseas' }],
+  },
+  robots: { index: true, follow: true },
+  icons: { icon: '/images/favicon.png' },
+};
 
 export default function RootLayout({ children }) {
   return (

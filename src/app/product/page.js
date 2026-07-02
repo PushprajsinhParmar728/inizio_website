@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
+export const metadata = {
+  title: 'Products',
+  description: 'Explore our range of precision textile needles and machinery parts — 23 needle variants and 26 critical components.',
+};
+
 export default function Products() {
   return (
     <div className="products-page">
