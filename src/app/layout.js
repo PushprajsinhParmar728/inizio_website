@@ -37,6 +37,9 @@ export const metadata = {
   },
   robots: { index: true, follow: true },
   icons: { icon: '/images/favicon.png' },
+  verification: {
+    google: 'tV1qPEZu-KA21dGwvWVX_r_0NF98GbvqZw-VDeal69I',   // paste your code exactly
+  },
 };
 
 export default function RootLayout({ children }) {
