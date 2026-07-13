@@ -35,7 +35,7 @@ export default function Footer() {
               <Facebook size={20} />
             </a>
             
-            <a  href="https://instagram.com/yourpage"
+            <a  href="https://www.instagram.com/iniziooverseas?igsh=YmozdXIzZG92dndv&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="ft-social-icon"
@@ -44,7 +44,7 @@ export default function Footer() {
               <Instagram size={20} />
             </a>
             
-            <a  href="https://wa.me/yourphonenumber"
+            <a  href="https://wa.me/message/ATL3HZ4FLYYTA1"
               target="_blank"
               rel="noopener noreferrer"
               className="ft-social-icon whatsapp-icon"
