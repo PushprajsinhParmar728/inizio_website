@@ -104,9 +104,9 @@ export default function Header() {
         {/* Desktop Social Icons */}
         <div className="hidden-mobile" style={{ display: 'flex', gap: '0.6rem', alignItems: 'center' }}>
           {[
-            { href: 'https://facebook.com/yourpage',  Icon: Facebook,  label: 'Facebook' },
-            { href: 'https://instagram.com/yourpage', Icon: Instagram, label: 'Instagram' },
-            { href: 'https://wa.me/yourphonenumber',  Icon: null,      label: 'WhatsApp' },
+            { href: 'https://www.facebook.com/share/16DYEfntdBS/?mibextid=wwXIfr',  Icon: Facebook,  label: 'Facebook' },
+            { href: 'https://www.instagram.com/iniziooverseas?igsh=YmozdXIzZG92dndv&utm_source=qr', Icon: Instagram, label: 'Instagram' },
+            { href: 'https://wa.me/message/ATL3HZ4FLYYTA1', Icon: null, label: 'WhatsApp' },
           ].map(({ href, Icon, label }) => (
             <a key={href} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="nav-social-icon">
               {Icon ? <Icon size={20} /> : (
@@ -228,8 +228,8 @@ export default function Header() {
         }}>
           {[
             { href: 'https://facebook.com/yourpage',  Icon: Facebook,  label: 'Facebook' },
-            { href: 'https://instagram.com/yourpage', Icon: Instagram, label: 'Instagram' },
-            { href: 'https://wa.me/yourphonenumber',  Icon: null,      label: 'WhatsApp' },
+            { href: 'https://www.instagram.com/iniziooverseas?igsh=YmozdXIzZG92dndv&utm_source=qr', Icon: Instagram, label: 'Instagram' },
+            { href: 'https://wa.me/message/ATL3HZ4FLYYTA1', Icon: null, label: 'WhatsApp' },
           ].map(({ href, Icon, label }) => (
             <a
               key={href}

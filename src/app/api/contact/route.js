@@ -14,7 +14,7 @@ export async function POST(req) {
 
     await transporter.sendMail({
       from: `"Inizio Overseas Website" <${process.env.EMAIL_USER}>`,
-      to: process.env.EMAIL_USER,
+      to: "info@iniziooverseas.com",
       subject: `New Inquiry from ${data.name} — ${data.company}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden;">
